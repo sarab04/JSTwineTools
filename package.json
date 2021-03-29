@@ -1,0 +1,30 @@
+{
+  "name": "jstwinetools",
+  "version": "1.0.0",
+  "description": "Javascript tools to analyze twine (Twee) stories",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarab04/JSTwineTools.git"
+  },
+  "keywords": [
+    "Twine",
+    "Twee"
+  ],
+  "author": "Sara B",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarab04/JSTwineTools/issues"
+  },
+  "homepage": "https://github.com/sarab04/JSTwineTools#readme",
+  "dependencies": {
+    "glob": "^7.1.6"
+  },
+  "bin": {
+    "tweeLinkCheck": "./bin/linkCheck.js",
+    "tweeVisualize": "./bin/visualize.js"
+  }
+}
